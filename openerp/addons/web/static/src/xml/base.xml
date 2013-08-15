@@ -63,7 +63,7 @@
         <div class="oe_login_bottom"> </div>
         <div class="oe_login_error_message"/>
         <div class="oe_login_pane">
-            <div class="oe_login_logo"><img src='/web/static/src/img/logo2.png'/></div>
+            <div class="oe_login_logo"><!--<img src='/web/static/src/img/logo2.png'/>--></div>
             <form action="" method="post">
                 <div class="oe_login_dbpane" >
                     Database:
@@ -78,8 +78,8 @@
                 </ul>
             </form>
             <div class="oe_login_footer">
-                <a href="#" class="oe_login_manage_db">Manage Databases</a> |
-                <a href="http://www.openerp.com" target="_blank">Powered by <span>OpenERP</span></a>
+                <a href="#" class="oe_login_manage_db">Manage Databases</a> <!--|
+                <a href="http://www.openerp.com" target="_blank">Powered by <span>OpenERP</span></a>-->
             </div>
         </div>
     </div>
@@ -403,7 +403,7 @@
         <img class="oe_topbar_avatar" t-att-data-default-src="_s + '/web/static/src/img/user_menu_avatar.png'"/>
         <span class="oe_topbar_name"/>
         <ul class="oe_dropdown_menu">
-            <li><a href="#" data-menu="about">About OpenERP</a></li>
+            <!--<li><a href="#" data-menu="about">About OpenERP</a></li>-->
             <li><a href="#" data-menu="settings">Preferences</a></li>
             <li><a href="#" data-menu="logout">Log out</a></li>
         </ul>
@@ -445,7 +445,7 @@
                 </a>
                 <div class="oe_secondary_menus_container"/>
                 <div class="oe_footer">
-                    Powered by <a href="http://www.openerp.com" target="_blank"><span>OpenERP</span></a>
+                    <!--Powered by <a href="http://www.openerp.com" target="_blank"><span>OpenERP</span></a>-->
                 </div>
             </td>
             <td class="oe_application">
