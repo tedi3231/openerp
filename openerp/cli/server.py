@@ -227,7 +227,7 @@ def configure_babel_localedata_path():
 def main(args):
     os.environ["TZ"] = "UTC"
 
-    check_root_user()
+    #check_root_user()
     openerp.tools.config.parse_config(args)
 
     check_postgres_user()
