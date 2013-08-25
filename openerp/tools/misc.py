@@ -636,7 +636,8 @@ __icons_list = ['STOCK_ABOUT', 'STOCK_ADD', 'STOCK_APPLY', 'STOCK_BOLD',
 'terp-face-plain','terp-folder-blue','terp-folder-green','terp-folder-orange','terp-folder-yellow',
 'terp-gdu-smart-failing','terp-go-week','terp-gtk-select-all','terp-locked','terp-mail-forward',
 'terp-mail-message-new','terp-mail-replied','terp-rating-rated','terp-stage','terp-stock_format-scientific',
-'terp-dolar_ok!','terp-idea','terp-stock_format-default','terp-mail-','terp-mail_delete'
+'terp-dolar_ok!','terp-idea','terp-stock_format-default','terp-mail-','terp-mail_delete','terp-tms-remove',
+'terp-tms-confirm','terp-tms-done','terp-tms-receive'
 ]
 
 def icons(*a, **kw):
